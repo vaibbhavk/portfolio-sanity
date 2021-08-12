@@ -27,7 +27,7 @@ const About = () => {
 
     return (
         <main className="relative">
-            <img src={b} alt="an image" className="w-full absolute"/>
+            <img src={b} alt="an" className="w-full absolute"/>
             <div className="p-10 lg:pt-48 container mx-auto relative">
                 <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
                     <img src={urlFor(author.authorImage).url()} className="w-32 h-32 rounded lg:w-64 lg:h-64 mr-8" alt={author.name}/>
